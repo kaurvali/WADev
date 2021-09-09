@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="resources/images/icon.png">
+    <title>My Dashboard</title>
+</head>
+
+<body>
+    <header>
+        <strong>Welcome to the dashboard!</strong>
+    </header>
+    <section>
+        <div>
+            <img style="height: 150px; margin-top: 15px;" src="resources/images/me.jpg" alt="My picture">
+        </div>
+        <div>
+            <ul>
+                <li>Kaur Vali</li>
+                <li>10/04/2001</li>
+                <li>Software Engineering</li>
+            </ul>
+        </div>
+        <div>
+            <strong>4.4</strong>
+        </div>
+    </section>
+    <section>
+        <h1>Courses</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Course Title</th>
+                    <th>Semester</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="https://courses.cs.ut.ee/2021/ASD/fall" target=”_blank”>Agile software development</a>
+                        </aAgile>
+                    </td>
+                    <td>1</td>
+                    <td>82</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="https://courses.cs.ut.ee/2021/sm/fall" target=”_blank”>System modeling</a></td>
+                    <td>1</td>
+                    <td>85</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="https://courses.cs.ut.ee/2021/OOP/spring" target=”_blank”>Object-oriented
+                            programming</a></td>
+                    <td>2</td>
+                    <td>99</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href="https://courses.cs.ut.ee/2021/kommunikatsioon/fall" target=”_blank”>Estonian language
+                            Level A2</a></td><!-- (i am confused by this, which is the right courses link) -->
+                    <td>2</td>
+                    <td>65</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>-</td>
+                    <td>Average points</td><!-- (i am confused by this, which is the right courses link) -->
+                    <td>-</td>
+                    <td>82.75</td>
+                </tr>
+            </tfoot>
+        </table>
+        <br>
+        <form>
+            <label for="course">Course name:</label><br>
+            <input type="text" id="course" name="course"><br>
+            <label for="semester">Semester:</label><br>
+            <input type="text" id="semester" name="semester"><br>
+            <label for="grade">Grade:</label><br>
+            <input type="text" id="grade" name="grade"><br>
+            <input style="margin-top: 10px;" type="submit" value="Submit">
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="https://ois2.ut.ee/" target=”_blank”>OIS</a>
+            </li>
+            <li>
+                <a href="https://courses.cs.ut.ee/" target=”_blank”>Courses</a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
